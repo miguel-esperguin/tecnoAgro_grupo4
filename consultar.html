@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<div class="consulta">
+		<div class="form_wrap">
+			<section class="main">
+				<section class="articles">
+					<article>
+						<h2>Contacto</h2>
+						<div class="consulta">Deje su consulta y nos contactamos a la brevedad.</div>
+					</article>
+				</section>
+			<div id="formulario">
+
+				<form  width="150" height="50">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" placeholder="Nombre" >
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" placeholder="Email" >
+
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea type="mensaje" id="mensaje" placeholder="" ="Mensaje"> </textarea>
+			
+
+					<input type="submit" value="Enviar">
+
+
+				</form>
+
+			</div>
+
+			</section>
+		</div>
+	</div>
+	
+{% endblock %}	
